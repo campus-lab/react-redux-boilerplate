@@ -10,7 +10,7 @@ Simple exercice using Giphy API to provide as a post-workshop example.
 ## Uses
 
 + react: user interface components
-+ react-redux: flux & state container
++ redux: flux & state container
 + react-scripts: build process
 
 ## Install & Start 
