@@ -42,7 +42,7 @@ export function fetchByQuerystring(query) {
 
         const q = query.split(' ').join('+');
 
-        return fetch(`http://api.giphy.com/v1/gifs/search?q=${q}&api_key=${GIPHY_API_KEY}`)
+        return fetch(`https://api.giphy.com/v1/gifs/search?q=${q}&api_key=${GIPHY_API_KEY}`)
             .then(response => response.json())
             .then(json => dispatch(receiveByQuerystring(query, json)));
     }
@@ -52,7 +52,7 @@ export function fetchById(id) {
     return function(dispatch) {
         dispatch(requestById(id));
 
-        return fetch(`http://api.giphy.com/v1/gifs/${id}?api_key=${GIPHY_API_KEY}`)
+        return fetch(`https://api.giphy.com/v1/gifs/${id}?api_key=${GIPHY_API_KEY}`)
             .then(response => response.json())
             .then(json => dispatch(receiveById(id, json)));
     }
