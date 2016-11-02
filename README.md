@@ -14,7 +14,7 @@ Simple exercice using Giphy API to provide as a post-workshop example.
 + Redux
   + flux & state container
 + React Scripts
-  + automated build process
+  + build process
 
 ## Install & Start 
 
