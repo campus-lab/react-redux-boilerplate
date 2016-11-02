@@ -1,6 +1,6 @@
 # react-redux-boilerplate
 
-Simple exercice using Giphy API to provide has a post-workshop example.
+Simple exercice using Giphy API to provide as a post-workshop example.
 
 ## Contains
 
