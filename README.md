@@ -13,7 +13,7 @@ Simple exercice using Giphy API to provide as a post-workshop example.
 + redux: flux & state container
 + react-scripts: build process
 
-## Install & Start 
+## Install & hack
 
 ```
 git clone https://github.com/alexandreneves/react-redux-boilerplate.git
