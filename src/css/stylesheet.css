@@ -1,0 +1,59 @@
+@import "./vendor/milligram/milligram.css";
+
+body {
+    margin: 100px 50px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 8rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    width: 300px;
+    text-align: center;
+}
+
+.app input {
+    width: 300px;
+    text-align: center;
+}
+
+.gif-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style: none;
+    margin: 4rem;
+
+}
+
+.gif-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+}
+
+
+.gif-item {
+    margin: 1rem;
+    text-align: center;
+}
