@@ -10,10 +10,9 @@ Simple exercice using Giphy API to provide as a post-workshop example.
 ## Uses
 
 + React
-  + library to built user interfaces
+  + user interface components
 + Redux
-  + flux inspired
-  + state container
+  + flux & state container
 + React Scripts
   + automated build process
 
